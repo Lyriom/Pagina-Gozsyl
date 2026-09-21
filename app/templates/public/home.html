@@ -202,6 +202,121 @@
         </div>
       </div>
     </article>
+
+    <div class="mt-6 space-y-6">
+      <article class="relative overflow-hidden rounded-[2rem] border border-brand-500/30 bg-[#101326] text-white shadow-project">
+        <div class="absolute -right-24 -top-24 h-80 w-80 rounded-full bg-brand-500/20 blur-[100px]"></div>
+        <div class="absolute -bottom-28 left-1/3 h-72 w-72 rounded-full bg-cyan-400/10 blur-[100px]"></div>
+
+        <div class="relative grid items-center gap-10 p-6 sm:p-9 lg:grid-cols-12 lg:gap-12 lg:p-12">
+          <div class="lg:col-span-5">
+            <div class="flex flex-wrap items-center gap-3">
+              <span class="rounded-full border border-brand-300/40 bg-brand-300/10 px-3 py-1 text-[.68rem] font-bold uppercase tracking-[.16em] text-brand-200">{{ t('home.project_badge_web', 'Proyecto web') }}</span>
+              <span class="text-xs text-white/65">{{ t('home.eladaycare_category', 'Servicios') }}</span>
+            </div>
+
+            <p class="mt-7 font-display text-sm font-medium tracking-[.24em] text-brand-200">ELADAYCARE</p>
+            <h3 class="text-balance mt-4 font-display text-3xl font-semibold tracking-[-.04em] sm:text-4xl">
+              {{ t('home.eladaycare_title', 'Una presencia digital clara para conectar con cada familia.') }}
+            </h3>
+            <p class="text-pretty mt-5 leading-7 text-white/65">
+              {{ t('home.eladaycare_description', 'Una experiencia web enfocada en presentar los servicios de Ela Daycare con claridad, generar confianza y facilitar el contacto de nuevas familias.') }}
+            </p>
+
+            <div class="mt-7 flex flex-wrap gap-2 text-xs text-white/65">
+              <span class="rounded-full border border-white/10 bg-white/[.05] px-3 py-1.5">UX/UI</span>
+              <span class="rounded-full border border-white/10 bg-white/[.05] px-3 py-1.5">Responsive</span>
+              <span class="rounded-full border border-white/10 bg-white/[.05] px-3 py-1.5">SEO</span>
+            </div>
+
+            <dl class="mt-8 grid grid-cols-3 gap-3 border-y border-white/10 py-5">
+              <div>
+                <dt class="text-[.65rem] uppercase tracking-[.14em] text-white/65">{{ t('home.audience', 'Audiencia') }}</dt>
+                <dd class="mt-1 font-display text-xl font-semibold text-brand-200">1</dd>
+                <dd class="text-xs text-white/65">{{ t('home.primary_focus', 'público') }}</dd>
+              </div>
+              <div>
+                <dt class="text-[.65rem] uppercase tracking-[.14em] text-white/65">{{ t('home.experience', 'Experiencia') }}</dt>
+                <dd class="mt-1 font-display text-xl font-semibold text-brand-200">24/7</dd>
+                <dd class="text-xs text-white/65">{{ t('home.online', 'online') }}</dd>
+              </div>
+              <div>
+                <dt class="text-[.65rem] uppercase tracking-[.14em] text-white/65">{{ t('home.goal', 'Objetivo') }}</dt>
+                <dd class="mt-1 font-display text-xl font-semibold text-brand-200">CTA</dd>
+                <dd class="text-xs text-white/65">{{ t('home.contact', 'contacto') }}</dd>
+              </div>
+            </dl>
+
+            <a href="https://eladaycare.com" target="_blank" rel="noopener noreferrer" class="mt-8 inline-flex min-h-11 items-center gap-2 rounded-xl bg-brand-300 px-5 py-3 text-sm font-bold text-[#101326] transition hover:-translate-y-0.5 hover:bg-brand-200 focus-visible:outline-brand-200">
+              {{ t('home.visit_eladaycare', 'Visitar eladaycare.com') }}
+              <svg class="h-4 w-4" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 17 17 7m0 0H8m9 0v9"/>
+              </svg>
+            </a>
+          </div>
+
+          <div class="lg:col-span-7">
+            <a href="https://eladaycare.com" target="_blank" rel="noopener noreferrer" class="group block overflow-hidden rounded-2xl border border-white/10 bg-[#171b35] shadow-2xl focus-visible:outline-brand-200" aria-label="{{ t('home.eladaycare_aria', 'Abrir el sitio web de Ela Daycare en una pestaña nueva') }}">
+              <div class="flex h-10 items-center gap-2 border-b border-white/10 px-4">
+                <span class="h-2.5 w-2.5 rounded-full bg-[#ff6b6b]/80"></span><span class="h-2.5 w-2.5 rounded-full bg-[#ffd166]/80"></span><span class="h-2.5 w-2.5 rounded-full bg-[#61d095]/80"></span>
+                <span class="ml-3 truncate text-[.65rem] text-white/65">eladaycare.com</span>
+                <svg class="ml-auto h-3.5 w-3.5 text-white/35 transition group-hover:text-brand-200" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 17 17 7m0 0H8m9 0v9"/></svg>
+              </div>
+              <div class="flex aspect-[1.44/1] flex-col justify-between overflow-hidden bg-[linear-gradient(135deg,#171b35_0%,#253b63_55%,#6a92aa_100%)] p-7 sm:p-10">
+                <div class="flex items-center justify-between text-white/70"><span class="text-xs font-bold uppercase tracking-[.2em]">Ela Daycare</span><span class="rounded-full border border-white/20 px-3 py-1 text-[.65rem]">{{ t('home.preview', 'Vista previa') }}</span></div>
+                <div><p class="max-w-sm font-display text-3xl font-semibold leading-tight text-white sm:text-4xl">{{ t('home.eladaycare_preview', 'Cuidado que genera confianza.') }}</p><span class="mt-5 inline-flex rounded-xl bg-white px-4 py-2 text-xs font-bold text-[#253b63]">{{ t('home.learn_more', 'Conocer más') }}</span></div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <article class="relative overflow-hidden rounded-[2rem] border border-cyan-400/30 bg-[#07171d] text-white shadow-project">
+        <div class="absolute -right-24 -top-24 h-80 w-80 rounded-full bg-cyan-400/20 blur-[100px]"></div>
+        <div class="absolute -bottom-28 left-1/3 h-72 w-72 rounded-full bg-emerald-400/10 blur-[100px]"></div>
+
+        <div class="relative grid items-center gap-10 p-6 sm:p-9 lg:grid-cols-12 lg:gap-12 lg:p-12">
+          <div class="lg:col-span-5">
+            <div class="flex flex-wrap items-center gap-3">
+              <span class="rounded-full border border-cyan-300/40 bg-cyan-300/10 px-3 py-1 text-[.68rem] font-bold uppercase tracking-[.16em] text-cyan-200">{{ t('home.project_badge_web', 'Proyecto web') }}</span>
+              <span class="text-xs text-white/65">{{ t('home.thelonec_category', 'Marca digital') }}</span>
+            </div>
+
+            <p class="mt-7 font-display text-sm font-medium tracking-[.24em] text-cyan-200">THELONEC</p>
+            <h3 class="text-balance mt-4 font-display text-3xl font-semibold tracking-[-.04em] sm:text-4xl">
+              {{ t('home.thelonec_title', 'Una identidad digital con una experiencia directa y memorable.') }}
+            </h3>
+            <p class="text-pretty mt-5 leading-7 text-white/65">
+              {{ t('home.thelonec_description', 'Un sitio web diseñado para presentar la propuesta de The Lone C, reforzar su identidad y guiar a cada visitante hacia el siguiente paso.') }}
+            </p>
+
+            <div class="mt-7 flex flex-wrap gap-2 text-xs text-white/65">
+              <span class="rounded-full border border-white/10 bg-white/[.05] px-3 py-1.5">Branding</span>
+              <span class="rounded-full border border-white/10 bg-white/[.05] px-3 py-1.5">UX/UI</span>
+              <span class="rounded-full border border-white/10 bg-white/[.05] px-3 py-1.5">Performance</span>
+            </div>
+
+            <dl class="mt-8 grid grid-cols-3 gap-3 border-y border-white/10 py-5">
+              <div><dt class="text-[.65rem] uppercase tracking-[.14em] text-white/65">{{ t('home.identity', 'Identidad') }}</dt><dd class="mt-1 font-display text-xl font-semibold text-cyan-200">01</dd><dd class="text-xs text-white/65">{{ t('home.digital_brand', 'digital') }}</dd></div>
+              <div><dt class="text-[.65rem] uppercase tracking-[.14em] text-white/65">{{ t('home.navigation', 'Navegación') }}</dt><dd class="mt-1 font-display text-xl font-semibold text-cyan-200">UX</dd><dd class="text-xs text-white/65">{{ t('home.clear_path', 'clara') }}</dd></div>
+              <div><dt class="text-[.65rem] uppercase tracking-[.14em] text-white/65">{{ t('home.goal', 'Objetivo') }}</dt><dd class="mt-1 font-display text-xl font-semibold text-cyan-200">CTA</dd><dd class="text-xs text-white/65">{{ t('home.action', 'acción') }}</dd></div>
+            </dl>
+
+            <a href="https://thelonec.com" target="_blank" rel="noopener noreferrer" class="mt-8 inline-flex min-h-11 items-center gap-2 rounded-xl bg-cyan-300 px-5 py-3 text-sm font-bold text-[#07171d] transition hover:-translate-y-0.5 hover:bg-cyan-200 focus-visible:outline-cyan-200">
+              {{ t('home.visit_thelonec', 'Visitar thelonec.com') }}
+              <svg class="h-4 w-4" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 17 17 7m0 0H8m9 0v9"/></svg>
+            </a>
+          </div>
+
+          <div class="lg:col-span-7">
+            <a href="https://thelonec.com" target="_blank" rel="noopener noreferrer" class="group block overflow-hidden rounded-2xl border border-white/10 bg-[#0d242c] shadow-2xl focus-visible:outline-cyan-200" aria-label="{{ t('home.thelonec_aria', 'Abrir el sitio web de The Lone C en una pestaña nueva') }}">
+              <div class="flex h-10 items-center gap-2 border-b border-white/10 px-4"><span class="h-2.5 w-2.5 rounded-full bg-[#ff6b6b]/80"></span><span class="h-2.5 w-2.5 rounded-full bg-[#ffd166]/80"></span><span class="h-2.5 w-2.5 rounded-full bg-[#61d095]/80"></span><span class="ml-3 truncate text-[.65rem] text-white/65">thelonec.com</span><svg class="ml-auto h-3.5 w-3.5 text-white/35 transition group-hover:text-cyan-200" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 17 17 7m0 0H8m9 0v9"/></svg></div>
+              <div class="flex aspect-[1.44/1] flex-col justify-between overflow-hidden bg-[linear-gradient(135deg,#0d242c_0%,#16515c_55%,#6ab7ae_100%)] p-7 sm:p-10"><div class="flex items-center justify-between text-white/70"><span class="text-xs font-bold uppercase tracking-[.2em]">The Lone C</span><span class="rounded-full border border-white/20 px-3 py-1 text-[.65rem]">{{ t('home.preview', 'Vista previa') }}</span></div><div><p class="max-w-sm font-display text-3xl font-semibold leading-tight text-white sm:text-4xl">{{ t('home.thelonec_preview', 'Haz que tu historia destaque.') }}</p><span class="mt-5 inline-flex rounded-xl bg-white px-4 py-2 text-xs font-bold text-[#16515c]">{{ t('home.discover', 'Descubrir') }}</span></div></div>
+            </a>
+          </div>
+        </div>
+      </article>
+    </div>
   </div>
 </section>
 
